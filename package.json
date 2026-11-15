@@ -1,0 +1,18 @@
+{
+  "name": "prestashop-demo-selenium-suite",
+  "version": "1.0.0",
+  "description": "Selenium WebDriver (JavaScript) + Mocha automation for the PrestaShop demo store guest shopping flow, using the Page Object Model.",
+  "scripts": {
+    "test": "mocha tests/e2e tests/regression",
+    "test:headless": "set HEADLESS=true&& mocha tests/e2e tests/regression",
+    "test:e2e": "mocha tests/e2e",
+    "test:regression": "mocha tests/regression"
+  },
+  "keywords": ["selenium", "mocha", "page-object-model", "prestashop"],
+  "author": "Kavindu Dasanayaka",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^12.0.3",
+    "selenium-webdriver": "^4.51.0"
+  }
+}
