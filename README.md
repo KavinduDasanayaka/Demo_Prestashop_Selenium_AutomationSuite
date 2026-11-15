@@ -1,6 +1,10 @@
+
+
+
+
 # PrestaShop Demo Store – Test Case Design & Selenium Automation
 
-QA Intern take-home task – **Kavindu Dasanayaka**
+QA Intern take-home task – **Kavindu Dasanayaka🏏😊**
 
 Automated checks for the guest shopping flow of the official PrestaShop demo store
 (<https://demo.prestashop.com/#/en/front>), written in **JavaScript** with **Selenium WebDriver** and **Mocha**,
@@ -12,7 +16,7 @@ structured with the **Page Object Model**.
 ---
 ##  Main end to end workflow
 
-
+https://github.com/user-attachments/assets/c957cbe0-6710-4dda-9d23-b3637d8ec674
 
 ---
 
