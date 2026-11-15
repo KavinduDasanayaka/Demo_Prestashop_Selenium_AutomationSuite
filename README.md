@@ -119,7 +119,7 @@ tests/
 1. **Demo instances are ephemeral and sometimes die.** The shop is served from a per-session sub-domain
    (e.g. `internal-toothpaste.demo.prestashop.com`) that is created on first load, can take **20–90 s** to provision, and
    occasionally returns Cloudflare **502 Bad gateway** or expires mid-run.
-2. **Personal information & Payment checkboxes scrolling.** On the guest checkout page, the GDPR/privacy checkboxes, the *Continue* button, and the payment terms checkbox can sit below the viewport fold or be intercepted during scrolling, so `scrollIntoView` + click is used.
+2. **Personal information & Payment checkboxes scrolling.** On the guest checkout page, the GDPR/privacy checkboxes, the *Continue* button, and the payment terms checkbox can sit below the viewport fold or be intercepted during scrolling.
 3. **TC_012 data in the spreadsheet.** The spreadsheet uses `gmail-at@s.commmt`, which is syntactically a valid email address (the store performs no TLD check).
 4. May need to cancel pop-up if chrome asked to save the address.
 
