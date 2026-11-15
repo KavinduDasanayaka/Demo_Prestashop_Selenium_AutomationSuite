@@ -7,7 +7,7 @@
  */
 module.exports = {
   DEMO_LANDING_URL: 'https://demo.prestashop.com/#/en/front',
-  BASE_URL: process.env.BASE_URL || 'https://violent-trip.demo.prestashop.com/order',
+  BASE_URL: process.env.BASE_URL || 'https://mixed-cloth.demo.prestashop.com/order',
   HEADLESS: String(process.env.HEADLESS || 'false').toLowerCase() === 'true',
 
   // Explicit-wait timeouts (ms). The demo store is slow, so these are generous.
