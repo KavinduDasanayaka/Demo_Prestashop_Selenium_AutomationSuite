@@ -118,5 +118,8 @@ tests/
 2. **Add-to-cart confirmation modal ("Continue shopping").** The Bootstrap modal (`#blockcart-modal`) uses a fade-in transition where clicks on `Continue shopping` can be ignored while animating, and another hidden modal exists in the DOM. We scope the button selector to `#blockcart-modal` and wait for the `show` class.
 3. **Personal information & Payment checkboxes scrolling.** On the guest checkout page, the GDPR/privacy checkboxes, the *Continue* button, and the payment terms checkbox can sit below the viewport fold or be intercepted during scrolling, so `scrollIntoView` + click is used.
 4. **TC_012 data in the spreadsheet.** The spreadsheet uses `gmail-at@s.commmt`, which is syntactically a valid email address (the store performs no TLD check).
-4. May need to cancel pop-up if chrome asked to save the address.
+5. **Item-specific quantity button IDs.** Each item's increase/decrease controls use a unique ID:
+   `increment_button_1` through `increment_button_8` and `decrement_button_1` through `decrement_button_8`.
+   A generic increment/decrement selector cannot be used; automation must target the relevant item ID.
+6. May need to cancel pop-up if chrome asked to save the address.
 
